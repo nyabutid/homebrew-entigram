@@ -1,0 +1,10 @@
+# Private strategy and open-source preparation notes
+/private/
+*POSITIONING*.md
+*STRATEGY*.md
+*COMPETITIVE*.md
+*VALUE_RESEARCH*.md
+*ROADMAP*.md
+
+# Local artifacts
+.DS_Store
