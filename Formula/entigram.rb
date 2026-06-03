@@ -1,8 +1,8 @@
 class Entigram < Formula
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/source/e/entigram-ai/entigram-ai-0.0.1.tar.gz"
-  sha256 "b12e06cfb92f0c5d9998766e5c43becac1ce02fcece2bb35c7a725bca28bed37"
+  url "https://files.pythonhosted.org/packages/source/e/entigram-ai/entigram_ai-0.1.0.tar.gz"
+  sha256 "309647d9badc5540c58f43625cc7a6b7835fa882041e39aa3878e495a4e7819e"
   license "Apache-2.0"
 
   depends_on "python@3.12"
