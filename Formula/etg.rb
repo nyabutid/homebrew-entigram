@@ -1,4 +1,4 @@
-class Entigram < Formula
+class Etg < Formula
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
   url "https://files.pythonhosted.org/packages/source/e/entigram-ai/entigram_ai-0.1.0.tar.gz"
