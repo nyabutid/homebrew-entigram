@@ -13,16 +13,18 @@ brew install etg
 
 ## 🛠️ Usage
 
-Once installed, you can use the `etg` command globally:
+Once installed, you can use the trusted core `etg` CLI globally:
 
 ```bash
 etg --help
 ```
 
-To launch the Visual Dashboard:
+The Homebrew formula intentionally installs the core CLI from declared,
+checksummed resources only. To use the Streamlit Visual Dashboard, install the
+Python package directly:
 
 ```bash
-etg ui
+pipx install entigram-ai
 ```
 
 ## 🔗 Links
