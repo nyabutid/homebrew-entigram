@@ -8,7 +8,7 @@ class Etg < Formula
   license "Apache-2.0"
 
   depends_on "libyaml"
-  depends_on "python@3.12"
+  depends_on "python@3.14"
 
   depends_on "cryptography"
   depends_on "cffi"
@@ -190,7 +190,7 @@ class Etg < Formula
     end
 
   def install
-    venv = virtualenv_create(libexec, "python3.12")
+    venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
     ENV["PIP_NO_DEPS"] = "1"
     venv.pip_install_and_link buildpath, build_isolation: false
