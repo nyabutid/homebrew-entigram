@@ -3,12 +3,14 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/6b/b2/915b55c7859b3b69e9369041f66ad944b28562223be16aa7cbc75f474203/entigram_ai-1.7.3.tar.gz"
-  sha256 "c07009fa28bcc99ecb7785e7f6a77b0cad614868532ef96407e5b1d68254adec"
+  url "https://files.pythonhosted.org/packages/7a/d8/4dec5b715526b823b1ad9d6ae95018bfa1996ffeaf038e199f74cb9443e1/entigram_ai-1.7.4.tar.gz"
+  sha256 "5196b5bda731870622e5d9772b8626afcfddacc387b395b7fe8596ecf3152867"
   license "Apache-2.0"
 
   depends_on "libyaml"
   depends_on "python@3.12"
+
+  depends_on "cryptography"
 
   resource "annotated-types" do
       url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
@@ -30,10 +32,6 @@ class Etg < Formula
       sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
     end
 
-    resource "cffi" do
-      url "https://files.pythonhosted.org/packages/eb/56/b1ba7935a17738ae8453301356628e8147c79dbb825bcbc73dc7401f9846/cffi-2.0.0.tar.gz"
-      sha256 "44d1b5909021139fe36001ae048dbdde8214afa20200eda0f64c068cac5d5529"
-    end
 
     resource "charset-normalizer" do
       url "https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz"
@@ -45,10 +43,6 @@ class Etg < Formula
       sha256 "918b5633eddf6b41c32d4f454bf0de810065c74e3f7dbf8ee5452f8be88d3e96"
     end
 
-    resource "cryptography" do
-      url "https://files.pythonhosted.org/packages/1f/99/d1c90d6041656cc6ee229dc99cd67fd0cd5aec3c5f7d72fffc27cc750054/cryptography-49.0.0.tar.gz"
-      sha256 "f89660a348f4f78a92366240a61404e337586ef7f5909a2fef59ca88ef505493"
-    end
 
     resource "ecdsa" do
       url "https://files.pythonhosted.org/packages/25/ca/8de7744cb3bc966c85430ca2d0fcaeea872507c6a4cf6e007f7fe269ed9d/ecdsa-0.19.2.tar.gz"
@@ -56,8 +50,8 @@ class Etg < Formula
     end
 
     resource "entigram-ai" do
-      url "https://files.pythonhosted.org/packages/6b/b2/915b55c7859b3b69e9369041f66ad944b28562223be16aa7cbc75f474203/entigram_ai-1.7.3.tar.gz"
-      sha256 "c07009fa28bcc99ecb7785e7f6a77b0cad614868532ef96407e5b1d68254adec"
+      url "https://files.pythonhosted.org/packages/7a/d8/4dec5b715526b823b1ad9d6ae95018bfa1996ffeaf038e199f74cb9443e1/entigram_ai-1.7.4.tar.gz"
+      sha256 "5196b5bda731870622e5d9772b8626afcfddacc387b395b7fe8596ecf3152867"
     end
 
     resource "h11" do
@@ -120,10 +114,6 @@ class Etg < Formula
       sha256 "ce115a26fe0c39a2c29973d914d327e516a6455464489fe3cd1e51a1b354f81a"
     end
 
-    resource "pycparser" do
-      url "https://files.pythonhosted.org/packages/1b/7d/92392ff7815c21062bea51aa7b87d45576f649f16458d78b7cf94b9ab2e6/pycparser-3.0.tar.gz"
-      sha256 "600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29"
-    end
 
     resource "pydantic" do
       url "https://files.pythonhosted.org/packages/18/a5/b60d21ac674192f8ab0ba4e9fd860690f9b4a6e51ca5df118733b487d8d6/pydantic-2.13.4.tar.gz"
