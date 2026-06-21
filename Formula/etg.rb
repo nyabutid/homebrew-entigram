@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/09/0d/816beee01fe62ef510f8714d6179be87a5c348c3566f84ca32756517e300/entigram_ai-1.7.2.tar.gz"
-  sha256 "39fb1f835d4cce4d0b9b537a77052618e3560321c9b92d86abd531a70d64452f"
+  url "https://files.pythonhosted.org/packages/6b/b2/915b55c7859b3b69e9369041f66ad944b28562223be16aa7cbc75f474203/entigram_ai-1.7.3.tar.gz"
+  sha256 "c07009fa28bcc99ecb7785e7f6a77b0cad614868532ef96407e5b1d68254adec"
   license "Apache-2.0"
 
   depends_on "libyaml"
@@ -50,9 +50,14 @@ class Etg < Formula
       sha256 "f89660a348f4f78a92366240a61404e337586ef7f5909a2fef59ca88ef505493"
     end
 
+    resource "ecdsa" do
+      url "https://files.pythonhosted.org/packages/25/ca/8de7744cb3bc966c85430ca2d0fcaeea872507c6a4cf6e007f7fe269ed9d/ecdsa-0.19.2.tar.gz"
+      sha256 "62635b0ac1ca2e027f82122b5b81cb706edc38cd91c63dda28e4f3455a2bf930"
+    end
+
     resource "entigram-ai" do
-      url "https://files.pythonhosted.org/packages/09/0d/816beee01fe62ef510f8714d6179be87a5c348c3566f84ca32756517e300/entigram_ai-1.7.2.tar.gz"
-      sha256 "39fb1f835d4cce4d0b9b537a77052618e3560321c9b92d86abd531a70d64452f"
+      url "https://files.pythonhosted.org/packages/6b/b2/915b55c7859b3b69e9369041f66ad944b28562223be16aa7cbc75f474203/entigram_ai-1.7.3.tar.gz"
+      sha256 "c07009fa28bcc99ecb7785e7f6a77b0cad614868532ef96407e5b1d68254adec"
     end
 
     resource "h11" do
@@ -173,6 +178,11 @@ class Etg < Formula
     resource "rpds-py" do
       url "https://files.pythonhosted.org/packages/2e/43/25a8dcd3feedd735039a8f0b5b7e3b118232b5eae288c4fd9ab200d41094/rpds_py-2026.5.1.tar.gz"
       sha256 "07b24fea40541e28570e5b795a4a38fbdcd12550c06bd0748005ecc8116ca256"
+    end
+
+    resource "six" do
+      url "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz"
+      sha256 "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
     end
 
     resource "sse-starlette" do
