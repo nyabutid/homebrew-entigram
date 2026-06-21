@@ -3,19 +3,19 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/7a/d8/4dec5b715526b823b1ad9d6ae95018bfa1996ffeaf038e199f74cb9443e1/entigram_ai-1.7.4.tar.gz"
-  sha256 "5196b5bda731870622e5d9772b8626afcfddacc387b395b7fe8596ecf3152867"
+  url "https://files.pythonhosted.org/packages/75/08/1609cfe970cb4b4b49b59801a85319a3f9f74809a9e310a7ef682000a941/entigram_ai-1.7.6.tar.gz"
+  sha256 "a787e63a1693bc7d21d1b4ef0259ddd84b7ec37d6d1be1e06fc74b6a3fee8b6d"
   license "Apache-2.0"
 
   depends_on "libyaml"
   depends_on "python@3.12"
 
   depends_on "cryptography"
+  depends_on "cffi"
+  depends_on "pycparser"
+  depends_on "pydantic"
+  depends_on "rpds-py"
 
-  resource "annotated-types" do
-      url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
-      sha256 "aff07c09a53a08bc8cfccb9c85b05f1aa9a2a6f23728d790723543408344ce89"
-    end
 
     resource "anyio" do
       url "https://files.pythonhosted.org/packages/1c/b5/001890774a9552aff22502b8da382593109ce0c95314abaebbb116567545/anyio-4.14.0.tar.gz"
@@ -50,8 +50,8 @@ class Etg < Formula
     end
 
     resource "entigram-ai" do
-      url "https://files.pythonhosted.org/packages/7a/d8/4dec5b715526b823b1ad9d6ae95018bfa1996ffeaf038e199f74cb9443e1/entigram_ai-1.7.4.tar.gz"
-      sha256 "5196b5bda731870622e5d9772b8626afcfddacc387b395b7fe8596ecf3152867"
+      url "https://files.pythonhosted.org/packages/6f/a9/6aabb84f6faf2c9a9e1bf2839d4baa3428b5f58ad8420cf5d1db56bc161d/entigram_ai-1.7.5.tar.gz"
+      sha256 "4d78dd87998bda3078fd8debd43622f61ea100ea44c5478b2376f27437c61072"
     end
 
     resource "h11" do
@@ -115,15 +115,7 @@ class Etg < Formula
     end
 
 
-    resource "pydantic" do
-      url "https://files.pythonhosted.org/packages/18/a5/b60d21ac674192f8ab0ba4e9fd860690f9b4a6e51ca5df118733b487d8d6/pydantic-2.13.4.tar.gz"
-      sha256 "c40756b57adaa8b1efeeced5c196f3f3b7c435f90e84ea7f443901bec8099ef6"
-    end
 
-    resource "pydantic_core" do
-      url "https://files.pythonhosted.org/packages/9d/56/921726b776ace8d8f5db44c4ef961006580d91dc52b803c489fafd1aa249/pydantic_core-2.46.4.tar.gz"
-      sha256 "62f875393d7f270851f20523dd2e29f082bcc82292d66db2b64ea71f64b6e1c1"
-    end
 
     resource "pydantic-settings" do
       url "https://files.pythonhosted.org/packages/5c/b5/8f48e906c3e0205276e8bd8cb7512217a87b2685304d64be27cad5b3019f/pydantic_settings-2.14.2.tar.gz"
@@ -165,10 +157,6 @@ class Etg < Formula
       sha256 "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"
     end
 
-    resource "rpds-py" do
-      url "https://files.pythonhosted.org/packages/2e/43/25a8dcd3feedd735039a8f0b5b7e3b118232b5eae288c4fd9ab200d41094/rpds_py-2026.5.1.tar.gz"
-      sha256 "07b24fea40541e28570e5b795a4a38fbdcd12550c06bd0748005ecc8116ca256"
-    end
 
     resource "six" do
       url "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz"
