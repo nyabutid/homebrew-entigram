@@ -16,6 +16,10 @@ class Etg < Formula
   depends_on "pydantic"
   depends_on "rpds-py"
 
+    resource "setuptools" do
+      url "https://files.pythonhosted.org/packages/4f/db/cfac1baf10650ab4d1c111714410d2fbb77ac5a616db26775db562c8fab2/setuptools-82.0.1.tar.gz"
+      sha256 "7d872682c5d01cfde07da7bccc7b65469d3dca203318515ada1de5eda35efbf9"
+    end
 
     resource "anyio" do
       url "https://files.pythonhosted.org/packages/1c/b5/001890774a9552aff22502b8da382593109ce0c95314abaebbb116567545/anyio-4.14.0.tar.gz"
@@ -47,11 +51,6 @@ class Etg < Formula
     resource "ecdsa" do
       url "https://files.pythonhosted.org/packages/25/ca/8de7744cb3bc966c85430ca2d0fcaeea872507c6a4cf6e007f7fe269ed9d/ecdsa-0.19.2.tar.gz"
       sha256 "62635b0ac1ca2e027f82122b5b81cb706edc38cd91c63dda28e4f3455a2bf930"
-    end
-
-    resource "entigram-ai" do
-      url "https://files.pythonhosted.org/packages/6f/a9/6aabb84f6faf2c9a9e1bf2839d4baa3428b5f58ad8420cf5d1db56bc161d/entigram_ai-1.7.5.tar.gz"
-      sha256 "4d78dd87998bda3078fd8debd43622f61ea100ea44c5478b2376f27437c61072"
     end
 
     resource "h11" do
