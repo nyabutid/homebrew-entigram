@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/75/08/1609cfe970cb4b4b49b59801a85319a3f9f74809a9e310a7ef682000a941/entigram_ai-1.7.6.tar.gz"
-  sha256 "a787e63a1693bc7d21d1b4ef0259ddd84b7ec37d6d1be1e06fc74b6a3fee8b6d"
+  url "https://files.pythonhosted.org/packages/0f/68/05851b6a8e197c88f29a1fa4ed6dd5a5a309444df7032c211816a9dfc1e9/entigram_ai-1.7.7.tar.gz"
+  sha256 "43c0e7efa2810319486b53d4e9ed4e79ff31cd58704d81a7ef4eed1c873df418"
   license "Apache-2.0"
 
   depends_on "libyaml"
@@ -16,10 +16,11 @@ class Etg < Formula
   depends_on "pydantic"
   depends_on "rpds-py"
 
-    resource "setuptools" do
-      url "https://files.pythonhosted.org/packages/4f/db/cfac1baf10650ab4d1c111714410d2fbb77ac5a616db26775db562c8fab2/setuptools-82.0.1.tar.gz"
-      sha256 "7d872682c5d01cfde07da7bccc7b65469d3dca203318515ada1de5eda35efbf9"
-    end
+  resource "setuptools" do
+    url "https://files.pythonhosted.org/packages/4f/db/cfac1baf10650ab4d1c111714410d2fbb77ac5a616db26775db562c8fab2/setuptools-82.0.1.tar.gz"
+    sha256 "7d872682c5d01cfde07da7bccc7b65469d3dca203318515ada1de5eda35efbf9"
+  end
+
 
     resource "anyio" do
       url "https://files.pythonhosted.org/packages/1c/b5/001890774a9552aff22502b8da382593109ce0c95314abaebbb116567545/anyio-4.14.0.tar.gz"
@@ -48,10 +49,6 @@ class Etg < Formula
     end
 
 
-    resource "ecdsa" do
-      url "https://files.pythonhosted.org/packages/25/ca/8de7744cb3bc966c85430ca2d0fcaeea872507c6a4cf6e007f7fe269ed9d/ecdsa-0.19.2.tar.gz"
-      sha256 "62635b0ac1ca2e027f82122b5b81cb706edc38cd91c63dda28e4f3455a2bf930"
-    end
 
     resource "h11" do
       url "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
@@ -156,11 +153,6 @@ class Etg < Formula
       sha256 "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed"
     end
 
-
-    resource "six" do
-      url "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz"
-      sha256 "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
-    end
 
     resource "sse-starlette" do
       url "https://files.pythonhosted.org/packages/d2/1b/bc9e3e7a72dcdad7dc7888758f5d00f56f8909ed5cfdff822bd72bb4c520/sse_starlette-3.4.5.tar.gz"
