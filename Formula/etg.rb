@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/89/48/68e1bae258ee3c1e88c048a1ded124eaf58d9a464ad91dc785fc964bbf45/entigram_ai-1.8.0.tar.gz"
-  sha256 "c6d2c63a7ec08a034f9629377ce0976d7b0e96a8d73cd5bc04e9c33385fe3f37"
+  url "https://files.pythonhosted.org/packages/a6/e6/8568cd705a2f677c48efb77ae6959f46585b9f15a20d4c5d9ad32871460f/entigram_ai-1.9.0.tar.gz"
+  sha256 "ebe6b23ee77f1fe922e270805be6055f4b9ee5a5328c0b363b6e7ebe8ebe9c92"
   license "Apache-2.0"
 
   depends_on "libyaml"
@@ -23,8 +23,8 @@ class Etg < Formula
 
 
     resource "anyio" do
-      url "https://files.pythonhosted.org/packages/1c/b5/001890774a9552aff22502b8da382593109ce0c95314abaebbb116567545/anyio-4.14.0.tar.gz"
-      sha256 "b47c1f9ccf73e67021df785332508f99379c68fa7d0684e8e3492cb1d4b23f89"
+      url "https://files.pythonhosted.org/packages/3b/72/5562aabb8dd7181e8e860622a38bea08d17842b99ecd4c91f84ac95251b0/anyio-4.14.1.tar.gz"
+      sha256 "8d648a3544c1a700e3ff78615cd679e4c5c3f149904287e73687b2596963629e"
     end
 
     resource "attrs" do
@@ -44,8 +44,8 @@ class Etg < Formula
     end
 
     resource "click" do
-      url "https://files.pythonhosted.org/packages/9b/98/518d8e5081007684232226f475082b30087d0f585e8457db087298259f49/click-8.4.1.tar.gz"
-      sha256 "918b5633eddf6b41c32d4f454bf0de810065c74e3f7dbf8ee5452f8be88d3e96"
+      url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
+      sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
     end
 
 
@@ -91,8 +91,8 @@ class Etg < Formula
     end
 
     resource "mcp" do
-      url "https://files.pythonhosted.org/packages/c1/ee/94c6c50ffc5b5cf4737052275d11b57367f32d1a8516e31dcd60591b3916/mcp-1.28.0.tar.gz"
-      sha256 "559d3f9943674cafbe5744c5d3794f3237e8b47f9bbc58e20c0fad680d8487c2"
+      url "https://files.pythonhosted.org/packages/6e/77/9450b8f251a13affb6281997d0523c4615f8a8b35d0b21ff30db3a5aac9d/mcp-1.28.1.tar.gz"
+      sha256 "d51e36a5f5644faea4f85ea649bfffa6bc6c26770d42798ad6a3de3d2ba69683"
     end
 
     resource "more-itertools" do
