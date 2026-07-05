@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/64/3e/0d6e8d8a86a04903bc16438ccf2b9e90341d72cef3e5d9ae54ff446cf8a9/entigram_ai-1.10.1.tar.gz"
-  sha256 "782a20c79fc8e809f1970ad059d4ba71bea37ba375280b4573e42bd961849f15"
+  url "https://files.pythonhosted.org/packages/6b/e4/8e39cc3230e3351b924c63f93dffaa04357f0837fb9ab556a1f6339ab812/entigram_ai-1.11.0.tar.gz"
+  sha256 "4f8d53d4b07521f18644425d61d2b9466637196b83f4f3370e6cfae5c2b4abcb"
   license "Apache-2.0"
 
   depends_on "libyaml"
@@ -185,8 +185,8 @@ class Etg < Formula
     end
 
     resource "uvicorn" do
-      url "https://files.pythonhosted.org/packages/c4/1f/fa18009dea8469069cca78a4e877a008ab78f08b064bfc9ab891579077ff/uvicorn-0.49.0.tar.gz"
-      sha256 "ebf4271aa580d9de97f93192d4595176df6e91f9aae919ca73e4fc07df1e66a3"
+      url "https://files.pythonhosted.org/packages/2e/41/06cce5dbb9f77591512957710ac709e60b12e6216a2f2d0d607fd49706e8/uvicorn-0.50.0.tar.gz"
+      sha256 "0c92e1bc2259cb7faa4fcef774a5966588f2e88542744550b66799fba10b76f1"
     end
 
   def install
