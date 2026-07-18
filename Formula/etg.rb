@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/e7/d2/5999780c5480f63da4783d71b6d493497698edbf44c480e9d6b21a948dee/entigram_ai-1.14.0.tar.gz"
-  sha256 "67f18877eadb44331fc9ea7e28b881d0cfec46d9112d91783b0bb5b2f0d4ce56"
+  url "https://files.pythonhosted.org/packages/34/db/e4031849e6cded017aeff402948bd3d7d463848a02551d55e5116e2e4e83/entigram_ai-1.15.0.tar.gz"
+  sha256 "92074fc66bdcde66360e20379672809678935aa15bbfbb6d22dfd8ade2ead16c"
   license "Apache-2.0"
 
   depends_on "libyaml"
@@ -23,8 +23,8 @@ class Etg < Formula
 
 
     resource "anyio" do
-      url "https://files.pythonhosted.org/packages/3b/72/5562aabb8dd7181e8e860622a38bea08d17842b99ecd4c91f84ac95251b0/anyio-4.14.1.tar.gz"
-      sha256 "8d648a3544c1a700e3ff78615cd679e4c5c3f149904287e73687b2596963629e"
+      url "https://files.pythonhosted.org/packages/61/cc/a381afa6efea9f496eff839d4a6a1aed3bfafc7b3ab4b0d1b243a12573dd/anyio-4.14.2.tar.gz"
+      sha256 "cfa139f3ed1a23ee8f88a145ddb5ac7605b8bbfd8592baacd7ce3d8bb4313c7f"
     end
 
     resource "attrs" do
