@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/7a/c0/540ab83b5c2ba5ce7c9326c33f945bf59f9a24a5584b0d6541ab2de3b4a2/entigram_ai-1.16.0.tar.gz"
-  sha256 "f3ba454c414cd57a051ea95945f9effa77114dbdb5d769913f48966db9b3868a"
+  url "https://files.pythonhosted.org/packages/2e/fa/7d401d64496bdf154d0f69c71d7c3dc9a345738109af5fe4416469386b69/entigram_ai-1.16.1.tar.gz"
+  sha256 "d7c2fbc115b32d83279a8dd6bcb457c49bfb34a398fb0b67dee73146b161f5c8"
   license "Apache-2.0"
 
   depends_on "libyaml"
@@ -165,8 +165,8 @@ class Etg < Formula
     end
 
     resource "typeguard" do
-      url "https://files.pythonhosted.org/packages/67/1c/dfba5c4633cafc4c701f237d2ba63b416805047fd6d96aab4cfc40969f98/typeguard-4.5.2.tar.gz"
-      sha256 "5a16dcac23502039299c97c8941651bc33d7ea8cc4b2f7d6bbb1b528f6eea423"
+      url "https://files.pythonhosted.org/packages/b4/de/4420db493fa8fc0856d5e5c1b159c63a323d2de2317babe36b01568928e8/typeguard-4.6.0.tar.gz"
+      sha256 "e7414f09111317de3e335de92cd397c5c0ca00b1cc1676de12e1d444a79b3f21"
     end
 
     resource "typing-extensions" do
