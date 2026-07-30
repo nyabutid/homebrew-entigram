@@ -7,7 +7,7 @@ Official Homebrew Tap for **Entigram**, the schema-first semantic governance lay
 To install Entigram using this tap, run the following commands in your terminal:
 
 ```bash
-brew tap nyabutid/entigram
+brew tap Entigram-AI/entigram
 brew install etg
 ```
 
@@ -29,7 +29,7 @@ pipx install entigram-ai
 
 ## 🔗 Links
 
-- **Main Repository:** [github.com/nyabutid/entigram](https://github.com/nyabutid/entigram)
+- **Main Repository:** [github.com/Entigram-AI/entigram](https://github.com/Entigram-AI/entigram)
 - **Website:** [api.entigram.ai](https://api.entigram.ai)
 
 ## ⚖️ License
