@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/d1/0d/def7ecedc445337090384255ba843ad1e77d76f7219ee6faa7c8ad5d5a59/entigram_ai-1.25.0.tar.gz"
-  sha256 "b85e98c07db43147dd2b33fc289eca10091e58b158010f99378c62c2b8531304"
+  url "https://files.pythonhosted.org/packages/d5/e4/80c7c91a3b1e245cb720f535e4f2fb38cbd6def1f4b859775558215957f4/entigram_ai-2.1.0.tar.gz"
+  sha256 "7899551e79a1248dac46e5068f4c104f84f80b5dea922bc433573a9ac4199600"
   license "Apache-2.0"
 
   depends_on "cffi"
@@ -36,8 +36,8 @@ class Etg < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/cb/31/4971872b3ed8715346231fb6eb4da8fcba65a4143c189db151ee28a2812b/charset_normalizer-3.5.0.tar.gz"
-    sha256 "49bd5feb59b0bf3cbf6ebcf4352e371c95b9da9bacd4449f8b64d0ad2c10a26e"
+    url "https://files.pythonhosted.org/packages/e5/3f/143b048436775b0f76ac3eec145c019e8173ccc2885c8f20319b996d5e83/charset_normalizer-3.5.1.tar.gz"
+    sha256 "6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3"
   end
 
   resource "click" do
@@ -171,8 +171,8 @@ class Etg < Formula
   end
 
   resource "uvicorn" do
-    url "https://files.pythonhosted.org/packages/03/18/ccce41535dee1be77735592bd19965f3972c82e07ee703d324709496b716/uvicorn-0.52.1.tar.gz"
-    sha256 "112ec661814189acbccd3f7b86460147cc065fc92c0821afa78918780e4354dd"
+    url "https://files.pythonhosted.org/packages/2e/28/64ca011edf31c715b4fad359c587ea52391aaffa125065695590241ff617/uvicorn-0.52.3.tar.gz"
+    sha256 "18857b9e6579300be55c91c0a1cfd37d9a2cf0cabea33b88275f199eb73b8b58"
   end
 
   def install
