@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/fa/93/2df707f54455de3532e864357adf66323cca4cfbc54989483ebb281e463e/entigram_ai-2.3.0.tar.gz"
-  sha256 "739b78466f87104368851092c6b866276d1cc4c00c540d8b998dd931f6c3cdf3"
+  url "https://files.pythonhosted.org/packages/f6/e8/ea95caf23459a5f6878ed6aa39868a1a34a64a394a631ce9ae987c5948a1/entigram_ai-2.4.0.tar.gz"
+  sha256 "8fb647f2173698d0ea0d9a53964fd4e1ef0e1afe6a1e26d83c275d76da83bbef"
   license "Apache-2.0"
 
   depends_on "cffi"
