@@ -3,8 +3,8 @@ class Etg < Formula
 
   desc "Schema-first semantic governance layer for enterprise agents"
   homepage "https://api.entigram.ai"
-  url "https://files.pythonhosted.org/packages/48/2c/bf4886a824a85674641aae3b95f6ecf593675f79e365b8b93b01cb22b874/entigram_ai-2.5.0.tar.gz"
-  sha256 "62a5bac00894b14336bfb75c857322332e2b61948d7ddecdef09a0b50b9c2abd"
+  url "https://files.pythonhosted.org/packages/5d/3a/6c3a25b2fcfa75fec1c36f4a6d4fe7791bc225dd00e0c59454971ec3add8/entigram_ai-2.5.1.tar.gz"
+  sha256 "664e6d0e2a168e56540eba07e2ab72ccde830b2e76dcfe21f632fe3a65490d07"
   license "Apache-2.0"
 
   depends_on "cffi"
@@ -21,8 +21,8 @@ class Etg < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/ea/9a/c15a60547004a3f3cea20296c934f827ddd7bdba225a2e7e9fcb5ec48c80/anyio-4.15.0.tar.gz"
-    sha256 "b5c620ed540725e2579c31b17bb995b3bf02c9281c9cace04c7d186380bab85e"
+    url "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz"
+    sha256 "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94"
   end
 
   resource "attrs" do
@@ -136,8 +136,8 @@ class Etg < Formula
   end
 
   resource "sse-starlette" do
-    url "https://files.pythonhosted.org/packages/1e/e1/8a41e88e825ea26c44333897c7ffe35fe60153a2cfc097a5bd1d209ad281/sse_starlette-3.4.10.tar.gz"
-    sha256 "c6c87280d8feb4e55a8d79633782766b9cac6a26da5c79a145d00aa404117a86"
+    url "https://files.pythonhosted.org/packages/2b/54/6767bb789b2f2fed6e0f953df949cd39dc263a384c1b65a95232598621d6/sse_starlette-3.4.11.tar.gz"
+    sha256 "1bae716c02f3e6f294be41ff333220692dae7c3cbab077c900f159676719dade"
   end
 
   resource "starlette" do
